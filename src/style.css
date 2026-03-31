@@ -1,0 +1,21 @@
+/* Import font Cinzel dari Google Fonts, taruh di baris paling atas */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --color-dark: #0f172a;
+  /* Daftarkan font baru dengan nama 'logo' */
+  --font-logo: 'Cinzel', serif; 
+}
+
+body {
+  @apply bg-dark text-white min-h-screen font-sans;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(79, 70, 229, 0.15), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.15), transparent 25%);
+}
+
+@utility glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+}
