@@ -9,7 +9,7 @@
       <form @submit.prevent="handleLogin" class="flex flex-col gap-5">
         <div>
           <label class="block text-sm text-gray-400 mb-2">Email</label>
-          <input v-model="email" type="email" required placeholder="admin@winsman.com" class="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-indigo-500 transition duration-300">
+          <input v-model="email" type="email" required placeholder="masukkan email admin" class="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-indigo-500 transition duration-300">
         </div>
 
         <div>
